@@ -1,0 +1,9 @@
+<resources>
+
+    <color name="alpa">#00000000</color>
+    <color name="translucent">#7f000000</color>
+    <color name="beta">#11111111</color>
+
+    <drawable name="translucent">@color/translucent</drawable>
+
+</resources>
