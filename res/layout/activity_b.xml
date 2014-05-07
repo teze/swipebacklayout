@@ -10,14 +10,6 @@
     android:background="@android:color/white"
      >
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:onClick="buttononClick"
-        android:text="Button" />
-
     <ListView
         android:id="@+id/listView"
         android:layout_below="@+id/button"
@@ -26,5 +18,24 @@
         android:layout_alignParentRight="true"
          >
     </ListView>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_alignRight="@+id/listView"
+        android:layout_marginRight="15dp"
+        android:onClick="buttononClick"
+        android:text="Test" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/listView"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:text="drag or swipe back" />
 
 </RelativeLayout>

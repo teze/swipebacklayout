@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.teze.testslidingpanelayout"
+    package="name.teze.swipebacklayout"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -13,12 +13,12 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name" >
         <activity
-            android:name="com.teze.testslidingpanelayout.MainActivityB"
+            android:name="name.teze.test.MainActivityB"
             android:label="@string/title_activity_b"
             android:theme="@style/CustomTheme.Animation" >
         </activity>
         <activity
-            android:name="com.teze.testslidingpanelayout.MainActivityA"
+            android:name="name.teze.test.MainActivityA"
             android:label="@string/title_activity_main"
             android:theme="@style/AppTheme" >
             <intent-filter>
@@ -26,15 +26,14 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-            >
         </activity>
         <activity
-            android:name="com.teze.testslidingpanelayout.MainActivityC"
+            android:name="name.teze.test.MainActivityC"
             android:label="@string/title_activity_c"
             android:theme="@style/CustomTheme.Animation" >
         </activity>
         <activity
-            android:name="com.teze.testslidingpanelayout.SwipeBackActivity"
+            android:name="name.teze.layout.lib.SwipeBackActivity"
             android:label="@string/title_activity_swipe_back" >
         </activity>
     </application>
